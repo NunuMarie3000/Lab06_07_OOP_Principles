@@ -1,0 +1,15 @@
+/home/nunumarie3000/projects/courses/Code401/Lab06_07_OOP_Principles/zoo/bin/Debug/net6.0/zoo
+/home/nunumarie3000/projects/courses/Code401/Lab06_07_OOP_Principles/zoo/bin/Debug/net6.0/zoo.deps.json
+/home/nunumarie3000/projects/courses/Code401/Lab06_07_OOP_Principles/zoo/bin/Debug/net6.0/zoo.runtimeconfig.json
+/home/nunumarie3000/projects/courses/Code401/Lab06_07_OOP_Principles/zoo/bin/Debug/net6.0/zoo.dll
+/home/nunumarie3000/projects/courses/Code401/Lab06_07_OOP_Principles/zoo/bin/Debug/net6.0/zoo.pdb
+/home/nunumarie3000/projects/courses/Code401/Lab06_07_OOP_Principles/zoo/obj/Debug/net6.0/zoo.csproj.AssemblyReference.cache
+/home/nunumarie3000/projects/courses/Code401/Lab06_07_OOP_Principles/zoo/obj/Debug/net6.0/zoo.GeneratedMSBuildEditorConfig.editorconfig
+/home/nunumarie3000/projects/courses/Code401/Lab06_07_OOP_Principles/zoo/obj/Debug/net6.0/zoo.AssemblyInfoInputs.cache
+/home/nunumarie3000/projects/courses/Code401/Lab06_07_OOP_Principles/zoo/obj/Debug/net6.0/zoo.AssemblyInfo.cs
+/home/nunumarie3000/projects/courses/Code401/Lab06_07_OOP_Principles/zoo/obj/Debug/net6.0/zoo.csproj.CoreCompileInputs.cache
+/home/nunumarie3000/projects/courses/Code401/Lab06_07_OOP_Principles/zoo/obj/Debug/net6.0/zoo.dll
+/home/nunumarie3000/projects/courses/Code401/Lab06_07_OOP_Principles/zoo/obj/Debug/net6.0/refint/zoo.dll
+/home/nunumarie3000/projects/courses/Code401/Lab06_07_OOP_Principles/zoo/obj/Debug/net6.0/zoo.pdb
+/home/nunumarie3000/projects/courses/Code401/Lab06_07_OOP_Principles/zoo/obj/Debug/net6.0/zoo.genruntimeconfig.cache
+/home/nunumarie3000/projects/courses/Code401/Lab06_07_OOP_Principles/zoo/obj/Debug/net6.0/ref/zoo.dll
