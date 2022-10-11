@@ -12,6 +12,7 @@ This project is my lab06, and future lab07 homework assignment for Code 401. It 
 ## Your digital UML drawing of your zoo
 
 (./lab6_uml.jpg?raw=true "Digital UML Drawing")
+[Digital UML Drawing](./lab6_uml.jpg)
 
 ## Create your own technical documentation
 
