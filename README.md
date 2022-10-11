@@ -19,7 +19,7 @@ For this lab, I'm mostly using classes and diving into inheritance and abstracti
 
 I wanted to play around with namespaces and class locations, which is why I have to many separate files. I realize now, after experimentation, I definitely could've put all of my classes in one file, but where's the fun in that?
 
-## Breakdown and define each of the OOP principles in your own words.
+## Breakdown and define each of the OOP principles in your own words
 
 - Abstraction: templating classes and the methods/properties of that class. Sort of like data modeling with schemas and models in MongoDB/Mongoose
   - ex: creating Animal class with properties and methods applicable to real world animals, with the specificity coming in the further down the class chain. Creating a generic animal the way I wanted to
