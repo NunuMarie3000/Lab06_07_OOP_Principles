@@ -1,7 +1,19 @@
+using Zoo.Interfaces;
+
 namespace Zoo.Classes
 {
-  public class KimodoDragon : Reptile
+  public class KimodoDragon : Reptile, IEndangered
   {
+    public string eyesOfTheAngel()
+    {
+      return "*sarah mclaughlin singing*\nIn the eeeeyes offf the AaAaangel...Hi, I'm Sarah McLaughlin and for just $15 dollars an hour, you can help save this endangered species...";
+    }
+    public string whyEndangered()
+    {
+      return "Because humans keep destroying my home!!!";
+    }
+    public int leftInTheWorld { get; set; } = 1380;
+    public override bool isEndangered { get; set; } = true;
     public override string Name { get; set; }
     public override string Food { get; set; }
     public KimodoDragon(string name, string eats)
@@ -21,6 +33,7 @@ namespace Zoo.Classes
 
   public class Anaconda : Reptile
   {
+    public override bool isEndangered { get; set; } = false;
     public override string Name { get; set; }
     public override string Food { get; set; }
     public Anaconda(string name, string eats)
