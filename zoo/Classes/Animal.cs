@@ -5,6 +5,7 @@ namespace Zoo.Classes
   {
     // an animal has what?
     public abstract string Name { get; set; }
+    public abstract bool isEndangered { get; set; }
     public abstract void Introduction ();
     public abstract string TypeOfAnimal { get; set; }
     public abstract string Food { get; set; }

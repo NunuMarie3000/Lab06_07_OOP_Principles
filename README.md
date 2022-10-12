@@ -30,8 +30,46 @@ I wanted to play around with namespaces and class locations, which is why I have
   - ex: Kimodo class inheriting Reptile class's Name property, and overriding it to create a class constructor
 - Encapsulation: hiding data/info not necessary to the user
   - ex: data in Animal class is only accessible to child classes, can only set variables declared in Animal class through getter/setter
-  -encapsulation is apparently lets a group of properties and methods be considered a single object
+    -encapsulation is apparently lets a group of properties and methods be considered a single object
   - wrapping the data into a single unit
   - data in a class is hidden from other classes
   - data hiding
   - can be done by setting classes as private and only getting/setting its values with getters/setters
+
+## Lab 7 Update
+
+### Describe what your interfaces are, where are they being implemented, and why- Provide Examples
+
+- I created a character interface as well as an endangered interface. They're both very simple, only having 2-3 properties.
+  - My Character interface is being implemented in the Lion, Panda, and Penguin classes. I chose to implement them there because when I think of those animals, I think of animated movies where those animals have been portrayed; "Madagascar", "Kung Fu Panda", etc. And thought it would be fun to include.
+  - I updated the constructor methods in all three classes to include what movie the animal is from and a favorite quote that character says.
+    - ex:
+
+```cs
+
+      Penguin skipper = new Penguin("Madagascar", "Kowalski! Go", "Skipper", "sushi");
+      skipper.CharacterIntro();
+      // would print "Hey, I'm Skipper the penguin from Madagascar."
+
+```
+
+- my Endangerd interface is a bit more fun: i declared a couple of methods as well as an integer.
+  - I implemented my Endangered interface in both my Kimodo Dragon class as well as my Panda Class(Panda class got to implement both Character and Endangered interfaces)
+  - ex:
+
+```cs
+
+    KimodoDragon kimmy = new KimodoDragon("kimmy", "meat");
+    kimmy.whyEndangered();
+    // returns 
+    // Because humans keep destroying my home!!!
+
+    kimmy.eyesOfTheAngel();
+    // returns "*sarah mclaughlin singing*
+    //In the eeeeyes offf the AaAaangel...Hi, I'm Sarah McLaughlin and for just $15 dollars an hour, you can help save this endangered species...
+
+```
+
+### Updated diagram with your interfaces mapped out
+
+![Digital UML Drawing](./interfaceuml.jpg)
